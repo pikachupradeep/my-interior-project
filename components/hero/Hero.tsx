@@ -4,6 +4,7 @@ import Button from "../ui/tailwindcss-buttons"
 import { useState } from "react"
 import './hero.css';
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 
 const Hero = () => {
@@ -42,10 +43,13 @@ const Hero = () => {
             </span>
             
             <p className="text-white capitalize">Plants are enexpensive means to accessorizing your space and adding color and texture.</p>
+            
+            <Link href="/services">
             <Button
             buttonClassName="relative w-[10rem] mt-6 inline-flex h-12 overflow-hidden rounded-full p-[1px]"
             spanClassName="flex uppercase items-center gap-2 h-full w-full cursor-pointer justify-center rounded-full hover hover:bg-blue-600 bg-green-600 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl"
             >LEARN MORE</Button>
+            </Link>
           </div>
         </motion.div>
 
