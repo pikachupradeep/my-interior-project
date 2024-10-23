@@ -1,0 +1,15 @@
+
+.slide_Up {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+
+.slide_Down {
+    height: 6rem;
+    overflow: visible;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}

@@ -1,0 +1,9 @@
+.hero {
+    background-image: linear-gradient(#1a191948,#0e0d0d50), url(../../public//assets//pic-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-box {
+    background-color: blue;
+}

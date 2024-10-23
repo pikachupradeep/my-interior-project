@@ -1,0 +1,163 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --light_green : rgba(0, 128, 21, 0.815);
+  --light_blue : rgba(16, 196, 70, 0.384); 
+}
+
+body {
+ /* font-family: "Plus Jakarta Sans", sans-serif; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+p {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+@media (min-width: 640px) {
+    
+  p {
+    font-size: 1rem;
+  }
+    
+  h6 {
+    font-size: 1.2rem;
+
+  }
+    
+  h5 {
+    font-size: 1.4rem;
+  
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  
+  }
+  h3 {
+    font-size: 1.8rem;
+  
+  }
+  h2 {
+    font-size: 2rem;
+  
+  }
+  h1 {
+    font-size: 2.2rem;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+     
+  p {
+    font-size: 1.14rem;
+  }
+  h6 {
+    font-size: 1.4rem;
+
+  }
+      
+  h5 {
+    font-size: 1.6rem;
+
+  }
+
+  h4 {
+    font-size: 1.8rem;
+
+  }
+  h3 {
+    font-size: 2rem;
+  
+  }
+  h2 {
+    font-size: 2.5rem;
+  
+  }
+  h1 {
+    font-size: 2.8rem;
+
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 1.2rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+
+  }
+      
+  h5 {
+    font-size: 1.8rem;
+
+  }
+
+  h4 {
+    font-size: 2rem;
+
+  }
+  h3 {
+    font-size: 2.5rem;
+  
+  }
+  h2 {
+    font-size: 3rem;
+  
+  }
+  h1 {
+    font-size: 3.5rem;
+
+  }
+
+}
+
+
